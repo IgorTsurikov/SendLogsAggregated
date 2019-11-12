@@ -2,16 +2,16 @@
 
 namespace App\Providers;
 
-use App\Repositories\CountryRepository;
 use App\Repositories\Interfaces\CountryRepositoryInterface;
 use App\Repositories\Interfaces\NumberRepositoryInterface;
 use App\Repositories\Interfaces\SendLogAggregatedRepositoryInterface;
 use App\Repositories\Interfaces\SendLogRepositoryInterface;
+use App\Repositories\Interfaces\UserRepositoryInterface;
+use App\Repositories\CountryRepository;
 use App\Repositories\NumberRepository;
 use App\Repositories\SendLogAggregatedRepository;
 use App\Repositories\SendLogRepository;
 use App\Repositories\UserRepository;
-use App\Repositories\UserRepositoryInterface;
 use Illuminate\Support\ServiceProvider;
 
 class RepositoryServiceProvider extends ServiceProvider
