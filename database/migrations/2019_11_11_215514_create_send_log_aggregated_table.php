@@ -15,7 +15,7 @@ class CreateSendLogAggregatedTable extends Migration
     {
         Schema::create('send_log_aggregated', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamp('log_created');
+            $table->date('log_created');
             $table->integer('cnt_id');
             $table->integer('usr_id');
             $table->integer('sent_success');
