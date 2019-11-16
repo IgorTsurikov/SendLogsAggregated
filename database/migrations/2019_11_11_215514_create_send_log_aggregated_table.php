@@ -19,7 +19,7 @@ class CreateSendLogAggregatedTable extends Migration
             $table->integer('cnt_id');
             $table->integer('usr_id');
             $table->integer('sent_success');
-            $table->integer('send_fail');
+            $table->integer('sent_fail');
         });
     }
 
