@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'SendLogAggregatedController@index');
+Route::post('/', 'SendLogAggregatedController@getSendLogAggregated');
